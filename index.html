@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel - School of Net</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="d-flex" id="wrapper">
+
+        <!--SIDEBAR-->
+        <div id="sidebar-wrapper">
+            <div class="sidebar-heading"><img src="logo.png"><span>Painel do Luffy!</span></div>
+            <div class="list-group list-group-flush border-right">
+                <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-home"></i>Inicio</a>
+                <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-users"></i>Funcionarios</a>
+                <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-box-open"></i>Produtos</a>
+                <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-sitemap"></i>Categorias</a>
+                <a href="#" class="list-group-item list-group-item-action"><i
+                        class="fas fa-people-carry"></i>Fornecedores</a>
+                <a href="#" class="list-group-item list-group-item-action"><i
+                        class="fas fa-chart-bar"></i>Relatórios</a>
+            </div>
+        </div>
+
+        <!--CONTEUDO-->
+        <div id="page-content-wrapper">
+            <nav class="navbar navbar-expand-lg navbar-light" id="son-navbar">
+                <span id="menu-toggle" class="mr-auto"><img src="logo.png" class="mx-auto d-block" alt=""></span>
+                <a class="navbar-brand" href="#" id="navbar-site-title">Painel</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#son-navbar-collapse"
+                    aria-controls="son-navbar-collapse" aria-expanded="false" aria-label="Exibe toda navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="son-navbar-collapse">
+                    <form class="form-inline" id="navbar-search-form">
+                        <input type="text" class="form-control form-field son-form-field" placeholder="Pesquisar"
+                            id="navbar-search-field">
+                    </form>
+
+                    <div id="navbar-profile" class="ml-auto">
+                        <img src="https://artesetra.com.br/wp-content/uploads/2021/01/20210102_one_piece_luffy-626x445.jpg"
+                            alt="">
+                        <span>Monkey D. Luffy</span>
+                    </div>
+                </div>
+            </nav>
+
+
+            <div id="content" class="container">
+                <!--TABELA-->
+                <div class="table-title">
+                    <h3>Usuários</h3>
+                    <input type="text" class="form-control form-field son-form-field" placeholder="Pesquisar">
+                </div>
+                <table class="table bg-white">
+                    <thehad>
+                        <tr>
+                            <th class="table-col-title">#</th>
+                            <th class="table-col-title">NOME</th>
+                            <th class="table-col-title">SOBRENOME</th>
+                            <th class="table-col-title">USUÁRIO</th>
+                        </tr>
+                    </thehad>
+                    <tbody>
+                        <tr>
+                            <th>1</th>
+                            <td>Monkey</td>
+                            <td>Luffy</td>
+                            <td>Gomu Gomu No</td>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td>Monkey</td>
+                            <td>Luffy</td>
+                            <td>Gomu Gomu No</td>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td>Monkey</td>
+                            <td>Luffy</td>
+                            <td>Gomu Gomu No</td>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td>Monkey</td>
+                            <td>Luffy</td>
+                            <td>Gomu Gomu No</td>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td>Monkey</td>
+                            <td>Luffy</td>
+                            <td>Gomu Gomu No</td>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td>Monkey</td>
+                            <td>Luffy</td>
+                            <td>Gomu Gomu No</td>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td>Monkey</td>
+                            <td>Luffy</td>
+                            <td>Gomu Gomu No</td>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td>Monkey</td>
+                            <td>Luffy</td>
+                            <td>Gomu Gomu No</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <!--FORMULARIO-->
+                <h3 id="main-page-form-title" class="son-main-text-3">Novo Atigo</h3>
+                <div>
+                    <form action="" class="card son-form">
+                        <div class="card-body son-form-body">
+                            <div class="form-group">
+                                <label>Autor</label>
+                                <input class="form-field son-form-field form-control" id="user-field"
+                                    placeholder="Autor">
+                                <hr>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Título</label>
+                                <input class="form-field son-form-field form-control" id="title-field"
+                                    placeholder="Título">
+                                <hr>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Conteúdo</label>
+                                <textarea placeholder="Um texto qualquer" class="form-field son-form-field form-control"
+                                    id="body-field"></textarea>
+                                <hr>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Data</label>
+                                <input type="date" class="form-field son-form-field form-control" id="date-field">
+                            </div>
+
+                        </div>
+                        <div class="card-footer">
+                            <div class="confirm-btns">
+                                <button class="btn btn-primary">Criar e adicionar outro</button>
+                                <button class="btn btn-primary">Publicar post</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+
+                <h3 id="vendas-h3">Vendas</h3>
+                <div class="card">
+                    <div class="card-body">
+                        <canvas id="relatorio"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--sempre tem que estar nesta ordem-->
+    <!-- scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <!-- JS DO BootStrap-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $("#menu-toggle").click(function (event) {
+            event.preventDefault(); /*retira o evento default*/
+
+            $("#wrapper").toggleClass('toggled'); /*se existe a classeele remove, se nao existe ele remove*/
+        });
+    </script>
+
+    <script src="js/chart/chart.min.js"></script>
+
+    <script>
+        var context = document.getElementById("relatorio").getContext('2d');
+
+        var grafico = new Chart(context, {
+            type: 'line',
+            data: {
+                labels: ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho'],
+                datasets: [{
+                    label: 'Vendas no ano',
+                    backgroundColor: "#5898d9ff",
+                    borderColor: "#5898d9ff",
+                    data: [10,5,7,18,14,20,22]
+                }]
+            }
+        });
+    </script>
+</body>
+
+</html>
